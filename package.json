@@ -1,5 +1,5 @@
 {
-  "name": "codeswear",
+  "name": "rootchoice",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,42 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/cache": "11.6.0",
+    "@emotion/react": "^11.9.0",
+    "@emotion/server": "11.4.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/lab": "^5.0.0-alpha.85",
+    "@mui/material": "^5.8.3",
+    "apexcharts": "^3.23.1",
+    "clsx": "1.1.1",
+    "color-diff": "^1.4.0",
+    "color-name": "^2.0.0",
+    "color-name-list": "^10.11.0",
+    "crypto-js": "^4.1.1",
+    "feather-icons-react": "^0.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.11.5",
+    "multer": "^1.4.5-lts.1",
     "next": "12.1.0",
+    "paytmchecksum": "^1.5.0",
+    "prop-types": "15.7.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-apexcharts": "^1.4.0",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-toastify": "^8.2.0",
+    "react-top-loading-bar": "^2.1.0"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.4",
     "eslint": "8.11.0",
-    "eslint-config-next": "12.1.0"
-  }
+    "eslint-config-next": "12.1.0",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
